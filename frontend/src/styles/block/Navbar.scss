@@ -1,0 +1,18 @@
+.navbar {
+	&__links {
+		display: flex;
+		justify-content: flex-end;
+		li {
+			padding: 0 5px;
+		}
+		a {
+			padding: 0 15px;
+			font-weight: 400;
+			font-size: 10px;
+			line-height: 12px;
+			text-transform: uppercase;
+			color: $gray;
+			transition: $transition;
+		}
+	}
+}

@@ -1,0 +1,57 @@
+* {
+	font-family: 'Montserrat';
+	color: $main;
+}
+html {
+	scroll-behavior: smooth;
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+}
+img {
+	display: inline-block;
+	max-width: 100%;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+p {
+	margin: 0;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	font-family: 'History Pro';
+	font-size: 24px;
+	line-height: 40px;
+}
+table {
+	margin: 0 auto;
+}
+td,
+th {
+	padding: 10px 20px;
+}
+tr {
+	border-bottom: 1px solid #ccc;
+}
+td {
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+svg {
+	font-size: 25px;
+}
+.container {
+	margin: 0 auto;
+	max-width: $container-width;
+	padding: 0 20px;
+}

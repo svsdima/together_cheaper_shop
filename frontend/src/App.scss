@@ -1,0 +1,19 @@
+$container-width: 1220px;
+$main: #181818;
+$secondary: #ffffff;
+$red: #ff6565;
+$gray: #8a8a8a;
+$star: #ffc656;
+$transition: all 0.3s ease;
+
+//base
+@import './styles/base/fonts';
+@import './styles/base/global';
+
+//block
+@import './styles/block/Navbar';
+@import './styles/block/Header';
+@import './styles/block/Footer';
+
+//media
+@import './styles/base/media';

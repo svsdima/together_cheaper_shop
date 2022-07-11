@@ -1,0 +1,53 @@
+.header {
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 1fr 2fr 4fr 2fr;
+		justify-items: center;
+		align-items: center;
+	}
+	&__logo {
+		h3 {
+			font-size: 7px;
+			line-height: 9px;
+			text-transform: uppercase;
+		}
+	}
+	&__phone {
+		a {
+			display: grid;
+			grid-template-columns: 1fr;
+			align-content: inherit;
+			justify-items: center;
+			row-gap: 10px;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 20px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+	}
+	&__title {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	&__nav {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		align-content: center;
+		justify-items: center;
+		column-gap: 35px;
+		&__item {
+			display: grid;
+			grid-template-columns: 1fr;
+			align-content: inherit;
+			justify-items: center;
+			row-gap: 10px;
+			font-weight: 700;
+			font-size: 10px;
+			line-height: 12px;
+		}
+	}
+}
