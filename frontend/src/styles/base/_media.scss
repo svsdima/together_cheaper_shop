@@ -9,4 +9,12 @@
 			}
 		}
 	}
+	.social {
+		&:hover {
+			i {
+				color: $main;
+				background-color: $secondary;
+			}
+		}
+	}
 }

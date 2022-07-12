@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import logo from '../assets/logo.svg';
-import { faPhone, faUser, faHeart, faBasketShopping } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
 	return (
@@ -11,7 +9,7 @@ const Header = () => {
 			<div className='container'>
 				<Navbar />
 				<div className='header__wrapper'>
-					<div className='header__logo'>
+					<div className='header__logo logo'>
 						<Link to='/'>
 							<img src={logo} alt='logo' />
 						</Link>
@@ -19,22 +17,22 @@ const Header = () => {
 					</div>
 					<div className='header__phone'>
 						<a href='tel:+79688905556'>
-							<FontAwesomeIcon icon={faPhone} />
+							<i class='fa-solid fa-phone'></i>
 							<p>+7 (968) 890 55 56</p>
 						</a>
 					</div>
 					<h1 className='header__title'>интернет-магазин с Бесплатной доставкой</h1>
 					<div className='header__nav'>
-						<Link to='/' className='header__nav__item'>
-							<FontAwesomeIcon icon={faUser} />
+						<Link to='/login' className='header__nav__item'>
+							<i class='fa-solid fa-user'></i>
 							<p>Войти</p>
 						</Link>
-						<Link to='/' className='header__nav__item'>
-							<FontAwesomeIcon icon={faHeart} />
+						<Link to='/favorite' className='header__nav__item'>
+							<i class='fa-solid fa-heart'></i>
 							<p>0 шт</p>
 						</Link>
-						<Link to='/' className='header__nav__item'>
-							<FontAwesomeIcon icon={faBasketShopping} />
+						<Link to='/cart' className='header__nav__item'>
+							<i class='fa-solid fa-basket-shopping'></i>
 							<p>1024 &#8381;</p>
 						</Link>
 					</div>
