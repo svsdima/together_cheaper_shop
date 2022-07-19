@@ -70,3 +70,39 @@ i {
 		transition: $transition;
 	}
 }
+.title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.products__list {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	column-gap: 20px;
+	row-gap: 50px;
+}
+.colors__list {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	align-items: center;
+	justify-items: center;
+	gap: 5px;
+}
+.color {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.btn {
+	transition: $transition;
+	border-radius: 25px;
+	cursor: pointer;
+	padding: 10px 20px;
+	background-color: $main;
+	color: white;
+	font-size: 10px;
+	line-height: 12px;
+	text-transform: uppercase;
+}

@@ -1,9 +1,11 @@
 $container-width: 1220px;
 $main: #181818;
 $secondary: #ffffff;
-$red: #ff6565;
+$discount: #ff6565;
 $gray: #8a8a8a;
+$lgray: #d9d9d9;
 $star: #ffc656;
+$bg_project: #dac1b3;
 $transition: all 0.3s ease;
 
 //base
@@ -14,6 +16,7 @@ $transition: all 0.3s ease;
 @import './styles/block/Navbar';
 @import './styles/block/Header';
 @import './styles/block/Footer';
+@import './styles/block/Product';
 
 //media
 @import './styles/base/media';

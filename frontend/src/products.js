@@ -23,6 +23,7 @@ const products = [
 		countInStock: 5,
 		rating: 4.5,
 		numReviews: 4,
+		discount: true,
 	},
 	{
 		_id: nextId('product-'),
@@ -43,6 +44,7 @@ const products = [
 		countInStock: 7,
 		rating: 4.3,
 		numReviews: 15,
+		discount: false,
 	},
 	{
 		_id: nextId('product-'),
@@ -62,15 +64,16 @@ const products = [
 		countInStock: 8,
 		rating: 4.5,
 		numReviews: 4,
+		discount: false,
 	},
 	{
 		_id: nextId('product-'),
 		name: 'LaRedoute MACY',
 		images: [
-			'/img/bags/W_MACY/1.jpg',
-			'/img/bags/W_MACY/2.jpg',
-			'/img/bags/W_MACY/3.jpg',
-			'/img/bags/W_MACY/4.jpg',
+			'/img/bags/W_MACY/1.webp',
+			'/img/bags/W_MACY/2.webp',
+			'/img/bags/W_MACY/3.webp',
+			'/img/bags/W_MACY/4.webp',
 		],
 		colors: ['#2E1D1A', '#485243', '#7D553C', '#6C7A5E'],
 		description:
@@ -81,16 +84,17 @@ const products = [
 		countInStock: 9,
 		rating: 4,
 		numReviews: 20,
+		discount: true,
 	},
 	{
 		_id: nextId('product-'),
 		name: 'LaRedoute THE ARTIST',
 		images: [
-			'/img/bags/W_THEARTIST/1.jpg',
-			'/img/bags/W_THEARTIST/2.jpg',
-			'/img/bags/W_THEARTIST/3.jpg',
-			'/img/bags/W_THEARTIST/4.jpg',
-			'/img/bags/W_THEARTIST/5.jpg',
+			'/img/bags/W_THEARTIST/1.webp',
+			'/img/bags/W_THEARTIST/2.webp',
+			'/img/bags/W_THEARTIST/3.webp',
+			'/img/bags/W_THEARTIST/4.webp',
+			'/img/bags/W_THEARTIST/5.webp',
 		],
 		colors: ['#33312D', '#243F40', '#9F71A3', '#8CA17D'],
 		description:
@@ -101,6 +105,7 @@ const products = [
 		countInStock: 11,
 		rating: 4.8,
 		numReviews: 3,
+		discount: true,
 	},
 	{
 		_id: nextId('product-'),
@@ -118,6 +123,7 @@ const products = [
 		countInStock: 20,
 		rating: 3.8,
 		numReviews: 5,
+		discount: false,
 	},
 	{
 		_id: nextId('product-'),
@@ -138,6 +144,7 @@ const products = [
 		countInStock: 9,
 		rating: 4.8,
 		numReviews: 15,
+		discount: false,
 	},
 	{
 		_id: nextId('product-'),
@@ -157,6 +164,7 @@ const products = [
 		countInStock: 10,
 		rating: 4.2,
 		numReviews: 7,
+		discount: true,
 	},
 	{
 		_id: nextId('product-'),
@@ -176,6 +184,7 @@ const products = [
 		countInStock: 25,
 		rating: 3.5,
 		numReviews: 2,
+		discount: false,
 	},
 	{
 		_id: nextId('product-'),
@@ -194,6 +203,7 @@ const products = [
 		countInStock: 5,
 		rating: 4.9,
 		numReviews: 8,
+		discount: true,
 	},
 	{
 		_id: nextId('product-'),
@@ -213,6 +223,7 @@ const products = [
 		countInStock: 5,
 		rating: 4.7,
 		numReviews: 8,
+		discount: false,
 	},
 	{
 		_id: nextId('product-'),
@@ -232,6 +243,7 @@ const products = [
 		countInStock: 40,
 		rating: 4,
 		numReviews: 13,
+		discount: false,
 	},
 	{
 		_id: nextId('product-'),
@@ -253,6 +265,7 @@ const products = [
 		countInStock: 3,
 		rating: 4.9,
 		numReviews: 30,
+		discount: false,
 	},
 	{
 		_id: nextId('product-'),
@@ -274,6 +287,7 @@ const products = [
 		countInStock: 7,
 		rating: 4.3,
 		numReviews: 10,
+		discount: true,
 	},
 	{
 		_id: nextId('product-'),
@@ -296,6 +310,7 @@ const products = [
 		countInStock: 2,
 		rating: 3.9,
 		numReviews: 4,
+		discount: true,
 	},
 	{
 		_id: nextId('product-'),
@@ -315,6 +330,7 @@ const products = [
 		countInStock: 8,
 		rating: 4.4,
 		numReviews: 5,
+		discount: false,
 	},
 	{
 		_id: nextId('product-'),
@@ -334,6 +350,7 @@ const products = [
 		countInStock: 8,
 		rating: 4.9,
 		numReviews: 5,
+		discount: false,
 	},
 	{
 		_id: nextId('product-'),
@@ -353,6 +370,7 @@ const products = [
 		countInStock: 2,
 		rating: 4.7,
 		numReviews: 4,
+		discount: true,
 	},
 	{
 		_id: nextId('product-'),
@@ -371,6 +389,7 @@ const products = [
 		countInStock: 2,
 		rating: 4.7,
 		numReviews: 4,
+		discount: true,
 	},
 	{
 		_id: nextId('product-'),
@@ -390,6 +409,7 @@ const products = [
 		countInStock: 8,
 		rating: 4.4,
 		numReviews: 15,
+		discount: false,
 	},
 	{
 		_id: nextId('product-'),
@@ -409,6 +429,7 @@ const products = [
 		countInStock: 17,
 		rating: 4.2,
 		numReviews: 4,
+		discount: true,
 	},
 ];
 

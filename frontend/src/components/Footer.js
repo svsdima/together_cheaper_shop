@@ -35,7 +35,7 @@ const Footer = () => {
 								<i className='fa-brands fa-vk'></i>
 							</Link>
 							<Link to='/' className='social'>
-								<i class='fa-brands fa-telegram'></i>
+								<i className='fa-brands fa-telegram'></i>
 							</Link>
 						</div>
 					</div>

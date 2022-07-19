@@ -17,4 +17,18 @@
 			}
 		}
 	}
+	.btn {
+		&:hover {
+			background-color: white;
+			color: $main;
+		}
+	}
+	.product__quantity__btn {
+		&:hover {
+			background-color: $main;
+			i {
+				color: white;
+			}
+		}
+	}
 }
